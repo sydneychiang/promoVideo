@@ -43,8 +43,11 @@ div{
     margin-top: 50px;
 }
 
-
 a{
+    color: black;
+}
+
+.a{
     background: #99AAB5;
     border-radius: 20px;
     border: none;
@@ -166,6 +169,12 @@ a{
     top: 75%;
     left: 45%;
 
+}
+
+#backtostart{
+    position: absolute;
+    top: 95%;
+    left: 92%;
 }
 
 
