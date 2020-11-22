@@ -79,7 +79,7 @@ a{
   padding: 10px 10px;
   text-align: center;
   text-decoration: none;
-  animation: glowing 3s infinite, fadeIn ease 8s;
+  animation: glowing 3s infinite;
 }
 
 .center{
@@ -168,6 +168,8 @@ a{
     position: absolute;
     top: 75%;
     left: 45%;
+    background-color: #FF9D07;
+    animation: fadeIn ease 8s !important;
 
 }
 
