@@ -5,6 +5,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="promoVid.css">
+    <script type="text/javascript">
+        function changeLocation(){
+            setTimeout(function(){
+                window.location = "promoPg4.html";
+            }, 200);
+        }
+    </script>
 </head>
 <body style="overflow-y: hidden;
     overflow-x: hidden;">
@@ -21,7 +28,9 @@
 
 
     <div>
-        <a href="https://drive.google.com/file/d/1f2Xin8_EyR4_DMxQXbWqJ2px_oYs3iKS/view" target="_blank" onclick="window.location.href = 'promoPg4.html'" id="" class="button applyBtn a">APPLY NOW!</a>
+        <form action="https://drive.google.com/file/d/1f2Xin8_EyR4_DMxQXbWqJ2px_oYs3iKS/view" target="_blank">
+            <button onclick="changeLocation()" id="" class="button applyBtn a">APPLY NOW!</button>
+        </form>
     </div>
 
 
